@@ -1,3 +1,7 @@
+Petit projet d'illsutration du TDD avec la création d'une stack en tdd, inspirée directement d'un cours d'Uncle Bob. 
+Utilisé comme exemple pour des cours. 
+
+
 Installation de l'environnement de test.
 ========================================
 npm install -D vitest
@@ -53,8 +57,7 @@ Créer le fichier jsconfig.json
 
 
 Commandes :
-===========
-
+==========
 Pour tester tout : 
     npm run test .\src\stack
 
@@ -65,4 +68,9 @@ Pour tester un dossier en particulier :
 Ordre indicatif pour une stack
 exist
 isEmpty
-push
+isEmpty après push
+exception après pop
+push pop isEmpty
+push push pop isNotEmpty
+pushXpop return X
+pushXpushY pop pop return X
