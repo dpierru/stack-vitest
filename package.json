@@ -1,0 +1,11 @@
+{
+    "devDependencies": {
+        "@types/node": "^25.0.9",
+        "vitest": "^4.0.17"
+    },
+    "scripts": {
+        "test": "vitest",
+        "test:watch": "vitest --watch",
+        "test:run": "vitest run"
+    }
+}
