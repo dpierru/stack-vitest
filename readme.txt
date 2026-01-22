@@ -19,7 +19,7 @@ Mettre à jour le package.json :
     }
 }
 
-Mettre à jour (créer) vitest.config.json
+Mettre à jour (créer) vitest.config.js
 ========================================
 
 import { defineConfig } from 'vitest/config'
